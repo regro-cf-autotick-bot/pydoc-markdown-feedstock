@@ -1,5 +1,5 @@
 {% set name = "pydoc-markdown" %}
-{% set version = "4.2.0" %}
+{% set version = "4.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pydoc-markdown-{{ version }}.tar.gz
-  sha256: 772300a9fd95d931bac1aff955b109479aebe81b03fd5587d6947de7e967db4b
+  sha256: 080244c28e1c2c149346faaa059971908926c2312d2157f04587a7aa34e778af
 
 build:
   number: 0
